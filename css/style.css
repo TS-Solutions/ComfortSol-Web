@@ -816,7 +816,7 @@ Shortcode Content
 
   .navbar-default {
     background    : #333333 !important;
-    padding       : 10px 0;
+    padding       : 2rem 0;
     border-bottom : none;
   }
 }
@@ -833,7 +833,7 @@ Shortcode Content
 
   .sticky-nav.navbar-default {
     background-color : #333333;
-    padding          : 15px 0;
+    padding          : 3rem 0;
   }
 
   .navbar-right .dropdown-menu {
@@ -2142,4 +2142,16 @@ if it's not present, don't show loader */
   -moz-transition    : all 12s ease 0s;
   -o-transition      : all 12s ease 0s;
   transition         : all 12s ease 0s;
+}
+
+.ts-logo{
+max-width: 20rem;
+margin-top: -1rem;
+}
+
+@media (max-width : 768px) {
+  .ts-logo{
+max-width: 15rem;
+/*margin-top: -1rem;*/
+}
 }
