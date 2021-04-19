@@ -170,5 +170,5 @@ $(document).on('click', '.m-menu .dropdown-menu', function(e) {
     // Wait for window load
     $(window).load(function() {
         // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow");;
+        $(".se-pre-con").delay(500).fadeOut("slow");;
     });
